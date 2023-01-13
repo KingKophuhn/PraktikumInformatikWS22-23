@@ -1,0 +1,19 @@
+
+
+#include <iostream>
+#include "Fahrzeug.h"
+using namespace std;
+
+
+
+int main() {
+	float dGlobaleZeit = 0.0;
+	Fahrzeug f1 {"f1"}; // Fahrzeug
+
+	Fahrzeug f3 {"teste",21.00};
+	Fahrzeug::vKopf();
+	f3.vAusgabe();
+
+	int vAufgabe_1(4);
+	return 0;
+}
